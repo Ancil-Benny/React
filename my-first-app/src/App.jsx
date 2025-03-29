@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-<CardComponent movie={{"title":"Avatar","desc":"lorem ipsum not working here"}}/>
+<CardComponent movie={{title:"Avatar",desc:"lorem ipsum not working here"}}/>
 </>
   )
 }
