@@ -3,7 +3,7 @@ function CardComponent({movie}){
         alert("shown a button");    
     }
     return (
-        <div>
+        <div className="card-card">
             <h3 className="card-heading">{movie.title}</h3>
             <h4 className="card-desc">{movie.desc}</h4>
             <button className="card-btn" onClick={show}>SHOW</button>
